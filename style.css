@@ -1,0 +1,56 @@
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    color: white;
+    background: url("https://c.wallhere.com/photos/24/2e/Tarmo_Juhola_digital_art_fantasy_art_Maya_civilization_mayan_boat_Canoe_ruins-2072375.jpg!d");
+    overflow: hidden;
+}
+h2{
+ 
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 32px;
+    text-align: center;
+
+}
+.clock {
+    display: flex;
+}
+.clock div{
+    margin: 5px;
+    position: relative;
+
+
+}
+.clock span{
+    width: 130px;
+    background-color: #0590c2;
+    opacity: 1;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    text-shadow: 5px 2px 3px rgba(0, 0, 0, 0.3);
+}
+.clock .text{
+    height: 37px;
+    font-size: 19px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: #071dbf;
+    opacity: 0.8;
+    background-size: cover;
+}
+.clock #ampm{
+    bottom: 0;
+    width: 60px;
+    height: 30px;
+    font-size: 25px;
+    background-color: rgb(10, 109, 106);
+    margin-top: 50px;
+}
